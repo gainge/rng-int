@@ -23,7 +23,7 @@ def advance_seed(seed):
 
 #Returns a value between 0 and max_val-1
 def get_random_int(seed, max_val):
-    # Let's try just doing the seed we have at hand first
+    # Advance that seed, dog
     seed = advance_seed(seed)
 
     top_bits = seed // 2**16
